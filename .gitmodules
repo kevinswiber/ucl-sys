@@ -1,3 +1,4 @@
 [submodule "deps/libucl"]
 	path = deps/libucl
 	url = https://github.com/vstakhov/libucl.git
+	ignore = dirty

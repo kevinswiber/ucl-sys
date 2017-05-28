@@ -1,0 +1,13 @@
+[package]
+name = "ucl-sys"
+version = "0.1.0"
+authors = ["Kevin Swiber <kswiber@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies]
+make-cmd = "0.1"
+bindgen = "0.25"
+
+[dependencies]
+libc = "*"
+curl-sys = "0.3"
